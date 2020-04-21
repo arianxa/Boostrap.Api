@@ -1,0 +1,31 @@
+.header {
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: rgb(141, 90, 199);
+}
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+ 
+    }
+    .contacto{
+width: 100%;
+text-align: center;
+color:white;
+        background-color: rgba(175, 141, 195, 0.63);
+        margin-bottom: 75px;
+    }
+   
+    .container{
+        width: 100%;
+        max-width: 100%!important;
+    }
