@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px!important;
+    width: 100%;
+min-height: 100%!important;
+position: absolute;
+
+    }
+ 
+
+
+    body::after {
+        content: "";
+        background-image: url('../imagenes/galaxi.png');
+        opacity: 0.5;
+        height: 100%!important;
+         top: 0; left: 0; bottom: 0; right: 0; position: absolute; z-index: -1;
+       min-height: 100%!important;
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+    
+       .container{
+        min-width: 90%!important;
+        width: 100%!important;
+
+       }
+      
+      
+       .titulo{
+        font-size: 70px;
+        font-weight: bold;
+        color:white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 100%;
+text-align: center;
+
+       }
+       .Nombre{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgba(0, 0, 0, 0.308);
+        text-align: center;
+        margin-left: 5%; 
+        width: 80%;
+        position:center;
+
+  }
+  .FOTO{
+    display:block;
+    margin:auto;
+    }
