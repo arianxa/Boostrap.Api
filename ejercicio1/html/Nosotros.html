@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Witch Nails</title>
+  <!--JS-->
+  <script src="../index.js"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/Nosotros.css">
+
+
+  <!--BOOSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Fontawesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- CARGAR AXIOS-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!--ICONO PAGINA -->
+  <link rel="icon" type="image/png" href="../imagenes/image0-removebg-preview.png" />
+
+</head>
+
+<body>
+  
+<!--NAVBAR LOGIN -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand " href="../index.html">
+      <img class="logo" src="../imagenes/image0-removebg-preview.png" width="100" height="120"
+        class="d-inline-block align-top" alt="">
+
+    </a>
+
+    <div class="Texto_Nav">
+
+      <p>The Witch Nails</p>
+    </div>
+
+    <a class="boton_personalizado" data-toggle="modal" data-target="#darkModalForm" href="./html/Login.html">
+      <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z"
+          clip-rule="evenodd" />
+      </svg>
+      Login
+    </a>
+
+  </nav>
+<!--NAVBAR BOTONES-->
+
+  <nav class="navbar navbar-expand-lg navbar-light Navbar_Enlaces ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav  mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Productos.html">Productos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+<p class="titulo">Nosotros</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+<h1 >The Witch Nails</h1>
+<p>Somos una empresa que se empezo en 2016 y hemos querido darnos a conocer.
+    Nos dedicamos al mundo de las uñas y formaciones.
+</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 Nombre">
+<p >Arantxa Ordoyo</p>
+<img class="FOTO" src="../imagenes/image0-removebg-preview.png" width="100" height="120"
+class="d-inline-block align-top" alt="">
+        </div>
+
+        <div class="col-md-5 Nombre">
+            <p >Katherine Canell</p>
+            <img class="FOTO" src="../imagenes/image0-removebg-preview.png" width="100" height="120"
+            class="d-inline-block align-top" alt="">
+            
+
+                    </div>
+    </div>
+
+
+
+</div>
+
+
+
+  <!--LOGIN MODAL!!!!!-->
+
+  <div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog form-dark" role="document">
+      <!--Content-->
+      <div class="modal-content card card-image fondoLogin">
+        <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+          <!--Header-->
+          <div class="card-header sing-in">
+
+            <div class="modal-header text-center pb-4">
+              <div class=" iconos-sociales">
+
+                <a href="https://www.instagram.com/the_witchnails/" target="_blank"><img alt="Instragram" height="48"
+                    width="48" src="../imagenes/pngwing.com.png" title="Instagram" /></a>
+
+              </div>
+              <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong>
+                <a class="green-text font-weight-bold"><strong> IN</strong></a></h3>
+              <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <!--      <form class="needs-validation" novalidate>-->
+            <form method="get">
+              <!--Body-->
+              <div class="modal-body">
+                <!--Body-->
+                <div class="md-form mb-3">
+                  <input type="email" class="form-control" id="email" placeholder="username" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+
+                <div class="md-form pb-3">
+
+                  <div class="input-group">
+                    <input id="passw" type="Password" Class="form-control" placeholder="password" minlength="7"
+                      required>
+
+                    <div class="input-group-append">
+                      <button id="show_password" class="btn btn_ojo" type="button" onclick="mostrarPassword()"> <span
+                          class="fa fa-eye-slash icon"></span> </button>
+                    </div>
+                  </div>
+
+
+                  <!-- <div class="form-group mt-4">
+              <input class="form-check-input" type="checkbox" id="checkbox624">
+          <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
+                Terms and Conditions</a></label>
+          </div>-->
+                </div>
+
+                <!--Grid row-->
+                <div class="row d-flex align-items-center mb-4">
+
+                  <!--Grid column-->
+                  <div class="text-center mb-3 col-md-12">
+                    <button type="submit" onclick="validar()" class="btn btnLogin">Sign in</button>
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                    <p class="font-small white-text d-flex justify-content-end">Have an account? <a
+                        href="./html/Registro.html" class="Registro ">
+                        Register</a></p>
+                  </div>
+                           </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
