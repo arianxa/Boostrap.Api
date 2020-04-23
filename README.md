@@ -129,5 +129,9 @@ Instalar mysql
 
 Ejercutar node
 
-``node app.js``
+``node ./app.js`` o ``node app.js``
+
+Tambien tendriamos que instalar AXIOS
+y los siguientes scripsts
+npm i axios
 
