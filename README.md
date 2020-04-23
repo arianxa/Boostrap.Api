@@ -129,5 +129,13 @@ Instalar mysql
 
 Ejercutar node
 
-``node app.js``
+``node ./app.js`` o ``node app.js``
+
+Tambien tendriamos que instalar AXIOS
+y los siguientes scripsts
+``   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>``
+    
+
+``npm i axios``
 
